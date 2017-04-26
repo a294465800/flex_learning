@@ -11,10 +11,12 @@ li {
 
 .flex {
     display: flex;
-    flex-flow: row wrap;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-    -webkit-justify-content: space-around;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    height: 500px;
+    border: 2px solid #333;
 }
 .flex-item {
     background: tomato;
@@ -22,7 +24,7 @@ li {
     width: 200px;
     height: 150px;
     margin-top: 10px;
-
+    margin-left: 10px;
     line-height: 150px;
     color: white;
     font-weight: bold;
